@@ -1,0 +1,42 @@
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+#voiceButton {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #005050;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+#voiceButton:hover {
+    background-color: #008080;
+    transform: scale(1.1);
+}
+#statusText {
+    color: cyan;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#outputText {
+    color: white;
+    margin-top: 20px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
